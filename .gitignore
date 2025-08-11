@@ -1,2 +1,5 @@
 # Ignore cache
 .direnv
+
+# Ignore temporary files
+.terraform

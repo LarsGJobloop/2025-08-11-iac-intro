@@ -4,3 +4,7 @@
 2. Clone repository
 3. Open in devcontainer `Ctrl + Shift + P` > `open in container`
 4. Load workbench `nix develop`
+
+## Refeences
+
+- [Terraform Registry](https://registry.terraform.io/)
