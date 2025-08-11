@@ -1,5 +1,6 @@
 {
   "recommendations": [
-    "anysphere.remote-containers"
+    "anysphere.remote-containers",
+    "hashicorp.terraform"
   ]
 }
