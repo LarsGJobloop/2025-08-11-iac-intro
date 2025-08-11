@@ -17,9 +17,23 @@ variable "hcloud_token" {
   sensitive = true
 }
 
+variable "ssh_key" {
+  description = "SSH public key"
+  type = string
+}
+
+resource "hcloud_ssh_key" "public_key" {
+  name = "public-key"
+  public_key = var.ssh_key
+}
+
 resource "hcloud_server" "my_server" {
   name = "my-server"
   server_type = "cx22"
   image = "debian-12"
   location = "hel1"
+
+  ssh_keys = [
+    hcloud_ssh_key.public_key.id
+  ]
 }

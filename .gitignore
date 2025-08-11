@@ -10,3 +10,7 @@
 # Ignore state files
 # They can contain sensitive data
 *.tfstate*
+
+# Ingore identity files
+ssh-id
+ssh-id.pub

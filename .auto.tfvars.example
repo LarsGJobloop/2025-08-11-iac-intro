@@ -1,1 +1,2 @@
 hcloud_token = "your-hcloud-token"
+ssh_key = "the ssh-id.pub content"
