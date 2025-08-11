@@ -3,3 +3,10 @@
 
 # Ignore temporary files
 .terraform
+
+# Ignore terraform variables
+*.tfvars
+
+# Ignore state files
+# They can contain sensitive data
+*.tfstate*
