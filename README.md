@@ -11,6 +11,29 @@
 ssh-keygen -t ed25519 -C "" -P "" -f ssh-id
 ```
 
+## Terraform basics
+
+> [!NOTE]
+> In doubt about the commands or options? `terraform --help`
+
+- Initial a project/download dependencies
+
+    ```sh
+    terraform init
+    ````
+
+- Create/Update (aka. Apply) configuration to defined vendors
+
+    ```sh
+    terraform apply
+    ````
+
+- Destroy all defined resources
+
+    ```sh
+    terraform destroy
+    ```
+
 ## Basic SSH usage
 
 - Log in:
