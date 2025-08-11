@@ -37,3 +37,8 @@ resource "hcloud_server" "my_server" {
     hcloud_ssh_key.public_key.id
   ]
 }
+
+output "server_ip" {
+  description = "Server IP address"
+  value = hcloud_server.my_server.ipv4_address
+}
