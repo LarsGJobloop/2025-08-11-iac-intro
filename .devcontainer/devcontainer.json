@@ -1,0 +1,4 @@
+{
+  "name": "nix-dev",
+  "image": "ghcr.io/xtruder/nix-devcontainer:latest"
+}
